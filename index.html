@@ -8,7 +8,19 @@
 <body>
 	<h1>IMC</h1>
 	<section>
-		<div></div>
+		<form action="">
+			<label for="name">Ingresa tu nombre:</label>
+			<input type="text" name="name" id="name" required="" /><br><br>
+			<label for="peso">Ingresa peso en Kg.:</label>
+			<input type="text" name="peso" id="peso" pattern="[0-9]{,3}" required=""/><br><br>
+			<label for="peso">Ingresa tu altura en centímetros:</label>
+			<input type="text" name="altura" id="altura" pattern="[0-9]{,3}" required=""/><br><br>
+			<p>
+				<input type="submit" onclick="masaCorporal(event)" value="Enviar datos">
+			</p>
+		</form>
 	</section>
+	
+	<section id="salida"></section>
 </body>
 </html>
