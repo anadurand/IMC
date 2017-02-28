@@ -1,4 +1,4 @@
-var peso = prompt("Ingrese su peso");
+var peso = prompt("Ingrese su peso en kg");
 var estatura = prompt("Ingrese su estatura en metros");
 
 function function_name(peso, estatura) {
