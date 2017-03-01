@@ -14,3 +14,4 @@ function masaCorporal() {
 	else {document.getElementById('salida').innerHTML = 'Error';}
 
 	};
+
